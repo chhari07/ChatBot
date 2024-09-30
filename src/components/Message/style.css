@@ -1,0 +1,52 @@
+.message-bot {
+    color:black;
+    word-wrap:break-word;
+    display:block;
+    max-width: 250px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 18px 18px 18px 18px;
+    box-sizing: border-box;
+    outline: none 0;
+    padding: 6px 12px;
+    position: relative;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+}
+
+.message-user {
+    max-width: 250px;
+    color:white;
+    display:block;
+    word-wrap:break-word;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 18px 18px 18px 18px;
+    box-sizing: border-box;
+    outline: none 0;
+    padding: 6px 12px;
+    position: relative;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+}
+
+.timestamp {
+    color: rgba(0, 0, 0, .3);
+    text-align:center;
+}
+.event-text {
+    color: rgba(0, 0, 0, .3);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgb(224, 224, 224);
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgb(224, 224, 224);
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: rgb(224, 224, 224);
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: rgb(224, 224, 224);
+}
