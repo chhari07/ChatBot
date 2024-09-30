@@ -1,0 +1,25 @@
+.options-text {
+    color: rgba(0, 0, 0, 0.4);
+    direction: ltr;
+    display: inline;
+    font-family: SFUIText-Regular, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    height: auto;
+    line-height: 15px;
+    text-rendering: optimizeLegibility;
+    user-select: none;
+    width: auto;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+
+.border-top {
+    border-top:1px solid rgba(0, 0, 0, .1);
+    margin-left:0;
+    margin-right:0;
+}
+
+.margin {
+     margin-top:15px;
+     margin-left:10px;
+}
